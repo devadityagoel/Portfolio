@@ -1,0 +1,138 @@
+#navbar{
+width: 2000;
+height: 30px;
+padding: 30px;
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-weight: bold;
+}
+
+.logo{
+    font-size: 80px;
+    font-style: italic;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ff0066, #6699ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+img{
+  height: 100%;
+  width: 100%;
+} 
+
+
+
+.footer{
+    text-align: center;
+    background-color: rgba(34,47,62,255);
+    height: 150px;
+    color: aliceblue;
+    width: 2000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:100px ;
+    padding-right:100px ;
+}
+
+.btt{
+    padding: 10px;
+    background-color: rgba(55,72,90,255);
+    color: #80dae2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 700px;
+    text-decoration: none;
+}
+
+.me{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.me2{
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255,0,0,1));
+    color: white;
+}
+
+
+  .flex-container {
+    display: flex;
+    background-color: #f1f1f1;
+  }
+
+  body{
+    background-color: black;
+  }
+  .ff{
+    background-color: black;
+    height: 20px;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.project-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #be1010;
+  padding-bottom: 20px;
+}
+
+.project:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project-image {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.project-description {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.project-description h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.project-description p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.project.odd .project-image {
+  order: 1;
+}
+
+.project.even .project-description {
+  order: 1;
+}
+
+.project.even .project-image {
+  order: 2;
+}
